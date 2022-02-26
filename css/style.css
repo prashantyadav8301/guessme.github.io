@@ -79,7 +79,7 @@ button{
     text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
     transition: all 0.5s;
     user-select: none;
-    /* -webkit-user-select: none; */
+    -webkit-user-select: none;
     text-transform: capitalize;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
