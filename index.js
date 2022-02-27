@@ -2,10 +2,11 @@ let computerGuess;
 let userGuess = [];
 let userGuessUpdate = document.getElementById("textOutput");
 let userNumberUpdate = document.getElementById("inputBox");
-let audio = new Audio("definite.mp3");
+let audio = new Audio("./music/Definite.mp3");
 
 const init = () => {
     computerGuess = Math.floor(Math.random() * 100);
+    console.log(computerGuess);
     document.getElementById("newGameButton").style.display = "none";
     document.getElementById("gameArea").style.display = "none";
 };
